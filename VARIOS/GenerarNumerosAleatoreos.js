@@ -6,6 +6,7 @@ function random(min, max) {
     return Math.floor((Math.random() * (max - min + 1)) + min);
 }
 
+//PARA PRUEBA
 for (var i = 0; i < 10; i++) {
 	console.log(random(1, 10));
 }
