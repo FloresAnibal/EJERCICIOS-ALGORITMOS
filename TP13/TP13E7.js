@@ -10,7 +10,7 @@ function ingresarDatos() {
 function informeHotel(array) {
 	let total = 0;
 
-	for (var i = 0; i < array.length; i++) {
+	for (var i = 0; i < array.length; i++) {	//podría usar 31 en lugar de "array,length"
 		total += array[i];
 	}
 
