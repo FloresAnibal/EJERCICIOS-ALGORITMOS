@@ -11,16 +11,17 @@ function codificar(argument) {
 
 	for (var i = 0; i < argument.length; i++) {
 		
-		if (i % 2 == 0) {
+		if (i % 2 == 0) {//da True si i es par
 			palabra += argument[i];
 		}else{
-			palabra += frase.charCodeAt(i);
+			palabra += frase.charCodeAt(i);	
 		}		
 	}
-
 	return palabra;
 }
 
 let frase = "Hola Mundo";
 
 console.log(codificar(frase));
+
+//NOTA: charCodeAt() devuelve un número indicando el valor Unicode del caracter en el índice proporcionado
