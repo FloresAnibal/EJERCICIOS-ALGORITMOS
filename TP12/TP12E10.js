@@ -9,15 +9,13 @@ function codificar(argument) {
 	
 	let palabra = "";
 
-
 	for (var i = 0; i < argument.length; i++) {
 		
 		if (i % 2 == 0) {
 			palabra += argument[i];
 		}else{
 			palabra += frase.charCodeAt(i);
-		}
-		
+		}		
 	}
 
 	return palabra;
