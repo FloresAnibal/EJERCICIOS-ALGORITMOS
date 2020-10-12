@@ -10,7 +10,8 @@ function ordenar(argument) {
 	let ordenados = [];	//array donde alamaceno los nombres ya ordenados
 	//podría convertir todo a mayúsculas o minúsculas de ser necesario
 	ordenados = argument.sort();	//ejecuto la instrucción de ordenamiento
-	return ordenados;	//decuelvo el array ordenado
+	return ordenados;	//devuelvo el array ordenado
 }
 
+//NOTA: lo siguiente es solo para pruebas. No va en el moodle
 console.log(ordenar(nombres));	//llamo a mi función y le paso el array con los nombres
