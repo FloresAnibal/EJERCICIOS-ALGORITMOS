@@ -11,11 +11,11 @@ function quitarEspacios(cadena) {	//quita espacios al principio, al final y los 
 			
 		}else{	//ELSE se ejecuta cuando el caracter que analizo SÍ es un espacio
 			
-			if(palabra.length > 0){	//controlo que mi variable contenga algo dentro. Porque podría venir vacía
+			if(palabra.length > 0){	//controlo que mi variable "palabra" contenga algo dentro. Porque podría venir vacía
 				
 				if (nuevaCadena.length > 0) {	//quiero saber si "nuevaCadena" ya tiene alguna palabra dentro...	
-					//...si ya tiene una palabra 
-					nuevaCadena += " " + palabra;	//primero agrego un espacio para separar de la nueva palabra que voy a agregar
+					//...si ya tiene una palabra dentro
+					nuevaCadena += " " + palabra;	//agrego un espacio para separar y luego la nueva palabra
 				
 				}else{	//ELSE se ejecuta si "nuevaPalabra" está vacía
 					
