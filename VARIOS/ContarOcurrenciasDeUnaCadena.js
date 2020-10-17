@@ -1,11 +1,11 @@
 //Busca si existe una cadena dentro de un string y de ser así cuanta cuántas veces aparece
 
-function contarOcurrencias(oracion, buscar) {	//recibe la frase, palabra, oracion o cadena, más lo que se desea contar
-	let ocurrencias = 0;	//para contar 
-	let desde = 0;	//para guardar la posición de donde debe comenzar a buscar
+function contarOcurrencias(oracion, buscar) {	//recibe la frase, palabra, oración o cadena, más lo que se desea contar
+	let ocurrencias = 0;	//para contar...
+	let desde = 0;	//para guardar la posición de dónde debe comenzar a buscar
 	
 	oracion = oracion.toUpperCase();	//convierto a myúsculas. Se podría omitir según el ejercicio
-	buscar = buscar.toUpperCase();	//convierto a myúsculas. Se podría omitir según el ejercicio
+	buscar = buscar.toUpperCase();	//convierto a mayúsculas. Se podría omitir según el ejercicio
 
 	if(oracion.includes(buscar)){	//veo si lo que busco existe dentro del string
 		desde = oracion.indexOf(buscar);	//guardo la posición donde se encuentra la primer ocurrencia
