@@ -1,4 +1,4 @@
-//Busca si existe una cadena dentro de un string y de ser así cuanta cuántas veces aparece
+//Busca si existe una cadena dentro de un string y de ser así cuenta cuántas veces aparece
 
 function contarOcurrencias(oracion, buscar) {	//recibe la frase, palabra, oración o cadena, más lo que se desea contar
 	let ocurrencias = 0;	//para contar...
