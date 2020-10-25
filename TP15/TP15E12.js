@@ -19,7 +19,7 @@ function invertir(argument) {
     }
 
     for (var j = 0; j < invertido.length; j++) {	//para convertir el array con oraciones en una sola cadena de texto
-    	oracion += invertido[j] + ". ";	//paso cada oración y le concateno punto y espacio
+    	oracion += invertido[j] + ". ";	//reutilizo la variable para pasar cada oración y le concateno punto y espacio
     }
     
     return oracion.trim();	//devuelvo la cadena invertida quitando los espacios que pudiera tener
